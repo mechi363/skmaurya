@@ -1,0 +1,336 @@
+root@ip-172-31-12-69:~/project1# history
+    1  apt update -y
+    2  clear
+    3  ls -l
+    4  git version
+    5  git clone https://github.com/raushan8586/intellipaat-devops-april.git
+    6  ls -l
+    7  cd intellipaat-devops-april/
+    8  ls -l
+    9  ls -la
+   10  git ls-files
+   11  cd ..
+   12  ls -l
+   13  clear
+   14  ls -l
+   15  mkdir project1
+   16  cd project1/
+   17  ls -la
+   18  git init
+   19  ls -la
+   20  touch file1
+   21  vi file1
+   22  ls -l
+   23  git ls-files
+   24  git status
+   25  ls -l
+   26  git ls-files
+   27  git status
+   28  git add file1
+   29  ls -l
+   30  git ls-files
+   31  git status
+   32  git commit -a -m "1st commit"
+   33  clear
+   34  ls -l
+   35  git ls-files
+   36  git status
+   37  git log
+   38  git remote -v
+   39  git remote add origin https://github.com/raushan8586/devops-repo-sample.git
+   40  git remote -v
+   41  git status
+   42  git show 58842dfffeb39bf9c7c2d22e8c58d9c34141241c
+   43  git log
+   44  vi file2
+   45  ls -l
+   46  git ls-files
+   47  git status
+   48  git add file2
+   49  ls files
+   50  ls -l
+   51  git ls-files
+   52  git status
+   53  git commit -a -m "2nd commit"
+   54  git log
+   55  git log --oneline
+   56  git push origin master
+   57  clear
+   58  git push origin master
+   59  cd ..
+   60  ls -l
+   61  cd intellipaat-devops-april/
+   62  git remote -v
+   63  cd ../project1/
+   64  git remote -v
+   65  history
+   
+   root@ip-172-31-12-69:~/project1# history
+    1  apt update -y
+    2  clear
+    3  ls -l
+    4  git version
+    5  git clone https://github.com/raushan8586/intellipaat-devops-april.git
+    6  ls -l
+    7  cd intellipaat-devops-april/
+    8  ls -l
+    9  ls -la
+   10  git ls-files
+   11  cd ..
+   12  ls -l
+   13  clear
+   14  ls -l
+   15  mkdir project1
+   16  cd project1/
+   17  ls -la
+   18  git init
+   19  ls -la
+   20  touch file1
+   21  vi file1
+   22  ls -l
+   23  git ls-files
+   24  git status
+   25  ls -l
+   26  git ls-files
+   27  git status
+   28  git add file1
+   29  ls -l
+   30  git ls-files
+   31  git status
+   32  git commit -a -m "1st commit"
+   33  clear
+   34  ls -l
+   35  git ls-files
+   36  git status
+   37  git log
+   38  git remote -v
+   39  git remote add origin https://github.com/raushan8586/devops-repo-sample.git
+   40  git remote -v
+   41  git status
+   42  git show 58842dfffeb39bf9c7c2d22e8c58d9c34141241c
+   43  git log
+   44  vi file2
+   45  ls -l
+   46  git ls-files
+   47  git status
+   48  git add file2
+   49  ls files
+   50  ls -l
+   51  git ls-files
+   52  git status
+   53  git commit -a -m "2nd commit"
+   54  git log
+   55  git log --oneline
+   56  git push origin master
+   57  clear
+   58  git push origin master
+   59  cd ..
+   60  ls -l
+   61  cd intellipaat-devops-april/
+   62  git remote -v
+   63  cd ../project1/
+   64  git remote -v
+   65  history
+   
+   
+   67  git branch
+   68  df -h
+   69  git branch
+   70  git branch b1 master
+   71  git branch
+   72  git log --oneline
+   73  git checkout b1
+   74  git branch
+   75  git log --oneline
+   76  git ls-files
+   77  git status
+   78  git push origin b1
+   79  git branch
+   80  vi b1_file1
+   81  ls -l
+   82  git ls-files
+   83  git status
+   84  git add b1_file1
+   85  git commit -m "b1_1st_commit"
+   86  git log --oneline
+   87  git push origin b1
+   88  git branch
+   89  git checkout master
+   90  git log --oneline
+   91  git merge b1 master
+   92  git log --oneline
+   93  git branch
+   94  git checkout -b b2 master
+   95  git branch
+   96  git log --oneline
+   97  git push origin b2
+   98  ls -l
+   99  git branch
+  100  git status
+  101  git checkout master
+  102  git status
+  103  ls -l
+  104  git ls-files
+  105  rm file1
+  106  ls -l
+  107  git status
+  108  git ls-files
+  109  git restore file1
+  110  ls -l
+  111  git rm file1
+  112  ls -l
+  113  git ls-files
+  114  git status
+  115  git restore --staged file1
+  116  git status
+  117  git restore file1
+  118  ls -l
+  119  history 
+123  ls -l
+  124  mkdir project2
+  125  cd project
+  126  cd project2/
+  127  ls -l
+  128  git status
+  129  git log
+  130  ls -la
+  131  git init
+  132  ls -la
+  133  vi sample1
+  134  git status
+  135  ls -la
+  136  ls -l
+  137  man ls
+  138  ls -l
+  139  git ls-files
+  140  git add sample1
+  141  git ls -files
+  142  git ls-files
+  143  git status
+  144  clear
+  145  ls -l
+  146  git ls-files
+  147  git status
+  148  git commit -m "first commit"
+  149  git log
+  150  git log --oneline
+  151  vi sample1
+  152  git show 802a1b870806f3b4146a9a935c5e32806a385716
+  153  git status
+  154  git commit -a -m "2nd commit"
+  155  git log --oneline
+  156  git remote -v
+  157  git remote add origin https://github.com/raushan8586/intellipaat-repo2.git
+  158  git remote -v
+  159  git push origin master
+  160  history 
+
+version control:
+
+1. track changes
+2. Redo my changes or I can go back to any specific version
+3. Retrive the accidently deleted files
+
+
+WD --> ls -l
+SA/LR --> git ls-files
+To Confirm SA or LR --> git status
+
+
+WD --> git add --> Staging Area --> git commit --> Local Repository --> git push --> Remote Repository 
+
+
+
+163  git branch
+  164  git branch b1 master
+  165  git log --oneline
+  166  git checkout b1
+  167  git log --oneline
+  168  vi b1_file1
+  169  git add b1_file1
+  170  git commit -m "b1_1st-commit"
+  171  git log --oneline
+  172  git checkout master
+  173  git log --oneline
+  174  git merge b1 master
+  175  git log --oneline
+  176  history
+  177  git branch -b b2 master
+  178  clear
+  179  git checkout -b b2 master
+  180  git branch
+  181  git log --oneline
+  182  ls -l
+  183  vi b2_file1
+  184  git add b2_file1
+  185  git commit -m b2_file1
+  186  git log --oneline
+  187  git checkout master
+  188  git merge b2 master
+  189  git checkout b1
+  190  vi b1_file2
+  191  git add b1_file2
+  192  git commit -m "b1_2nd-commit"
+  193  git branch
+  194  git log --graph --pretty=oneline
+  195  git checkout master
+  196  git merge b1 master
+  197  git log --graph --pretty=oneline
+  198  git log --oneline
+  199  git checkout b2
+  200  git log --oneline
+  201  git log --graph --pretty=oneline
+  202  git rebase master
+  203  git branch
+  204  git status
+  205  git restore sample1
+  206  git status
+  207  git rebase master
+  208  git log --graph --pretty=oneline
+  209  history
+
+
+version control:
+
+1. track changes
+2. Redo my changes or I can go back to any specific version
+3. Retrive the accidently deleted files
+
+
+WD --> ls -l
+SA/LR --> git ls-files
+To Confirm SA or LR --> git status
+
+
+WD --> git add --> Staging Area --> git commit --> Local Repository --> git push --> Remote Repository
+
+
+why git branching?
+ - to manage multiple modules/work in the same repo
+ - For the bug fixes
+ - for any new activity
+ 
+ git branch --> list the branch
+ git branch b1 master --> create b1 branch --> b1 will have all the coommits of master
+ git checkout b1
+ 
+ -------------------------
+ 
+ git checkout -b b2 master --> create b2 branch and checkout
+ 
+ 
+ Merge --> feature branch --> Master branch
+ Feature branches means any branch but master
+ 
+ Rebase --> Arranging the log history in the linear fashion.  master branch --> feature branches
+ Golden Rule --> Before you do a commit in a feature branch, Rebase first
+ 
+To check the linear/parallel development --> git log --graph --pretty=oneline
+
+git fetch
+  219  git ls-files
+  220  git pull
+  221  git remote -v
+  222  git pull origin master
+  223  git ls-files
+  224  history
